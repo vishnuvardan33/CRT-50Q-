@@ -1,0 +1,77 @@
+
+/* Basic page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Card container styling */
+.card {
+    background-color: white;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Hover effect: enlarge and deepen the shadow */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+/* Card image styling */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Content inside the card */
+.card-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Card title */
+.card-content h3 {
+    margin: 0 0 12px 0;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+/* Card description text */
+.card-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Call-to-action button */
+.card-content button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+/* Button hover effect */
+.card-content button:hover {
+    background-color: #0056b3;
+}
+

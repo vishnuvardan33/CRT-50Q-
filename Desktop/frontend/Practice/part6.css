@@ -1,0 +1,126 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#education{
+    border:5px solid rgb(133, 137, 135);
+    width:auto;
+}
+#education h2{
+    text-align: center;
+    color: rgb(154, 160, 154);
+}
+#education ul{
+    list-style-type: none                                          ;
+    font-size: 20px;
+    text-align: center;
+}
+#projects{
+    border:5px solid rgb(181, 246, 206);
+    width:auto;
+}
+#projects h2{
+    text-align: center;
+    color: green;
+}
+#projects ul{
+    list-style-type: none                                          ;
+    font-size: 20px;
+    text-align: center;
+}
+#skills{
+    border:5px solid rgb(177, 183, 179);
+    width:auto;
+}
+#skills h2{
+    text-align: center;
+    color: rgb(173, 181, 173);
+}
+#skills ul{
+    list-style-type: none ;
+    font-size: 20px;
+    text-align: center;
+}
+#Hobbies{
+    border:5px solid rgb(162, 167, 164);
+    width:auto;
+}
+#Hobbies h2{
+    text-align: center;
+    color: rgb(127, 130, 127);
+}
+#Hobbies ul{
+    list-style-type: none                                          ;
+    font-size: 20px;
+    text-align: center;
+}
+#contact{
+    border:5px solid rgb(159, 164, 161);
+    width:auto;
+}
+#contact h2{
+    text-align: center;
+    color: rgb(181, 185, 181);
+}
+#contact ul{
+    list-style-type: none                                          ;
+    font-size: 20px;
+    text-align: center;
+}
+#socials{
+    border:5px solid rgb(188, 196, 191);
+    width:auto;
+}
+#socials h2{
+    text-align: center;
+    color: rgb(178, 184, 178);
+}
+#socials ul{
+    list-style-type: none                                          ;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(175, 181, 175);
+}
+
+.center-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 12px;
+    text-align: left;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    color: aqua;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
